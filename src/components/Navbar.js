@@ -15,7 +15,7 @@ const Navbar = () => {
         }}
     >
         <span className='logo'>REDUX STORE</span>
-        <div>
+        <div>   
             <Link className='navLink' to='/'>Home</Link>
             <Link className='navLink' to='/cart'>Cart</Link>
             <span className='cartCount'>Cart items: {items.length}</span>
